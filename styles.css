@@ -37,10 +37,12 @@ body {
 }
 
 h1 {
+    margin-top: 3%;
     font-family: 'Bold', sans-serif;
     text-align: center;
     width: 70%;
     margin-bottom: 2rem;
+    font-size: 30px;
 }
 
 .botoes-alura {
@@ -166,3 +168,99 @@ h1 {
     text-decoration: none;
 }
 
+.container-cursos {
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 15%;
+}
+
+.container-textos-cursos {
+    width: 27%;
+    margin-left: 20%;
+}
+
+.titulo-cursos {
+    font-size: 40px;
+    margin-bottom: 3px;
+}
+
+.texto-cursos {
+    color: var(--cor-cinza);
+    font-size: 14px;
+}
+
+.imagem-cursos {
+    margin-left: 8%;
+}
+
+.container-dispositivos {
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 10%;
+}
+
+.container-imagem-dispositivos{
+    justify-content: center;
+    display: flex;
+    gap: 3%;
+}
+
+.titulo-dispositivos {
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+
+.container-legenda-dispositivos {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10%;
+    font-size: 20px;
+    gap: 8%;
+}
+
+.legenda-tv {
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.rodape-alura {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo-alura {
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+
+.links-alura {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 18px;
+}
+
+.link-alura {
+    margin: 2% 0.8%;
+    text-decoration: none;
+    color: var(--cor-branca);
+}
+
+.texto-alura {
+    margin-bottom: 1%;
+    color: var(--cor-cinza);
+    font-size: 14px;
+}
+
+.texto-alura-2 {
+    color: var(--cor-cinza);
+    font-size: 14px;
+    width: 63%;
+    text-align: center;
+}
