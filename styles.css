@@ -76,6 +76,10 @@ h1 {
     text-decoration: none;
 }
 
+.botao-alura-combo:hover {
+    background-color: #69adff;
+}
+
 .botao-alura-mais {
     color: var(--cor-branca);
     background-color: transparent;
@@ -91,6 +95,11 @@ h1 {
     display: flex;
     flex-direction: column;
     text-decoration: none;
+}
+
+.botao-alura-mais:hover {
+    background-color: rgb(224, 224, 224);
+    color: black;
 }
 
 .botao-aviso {
@@ -166,6 +175,10 @@ h1 {
     display: flex;
     flex-direction: column;
     text-decoration: none;
+}
+
+.botao-combo-mais:hover {
+    background-color: #69adff;
 }
 
 .container-cursos {
@@ -250,6 +263,10 @@ h1 {
     margin: 2% 0.8%;
     text-decoration: none;
     color: var(--cor-branca);
+}
+
+.link-alura:hover {
+    color: var(--cor-azul);
 }
 
 .texto-alura {
