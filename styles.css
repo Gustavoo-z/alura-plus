@@ -216,6 +216,12 @@ h1 {
     justify-content: center;
     display: flex;
     gap: 3%;
+    list-style-type: none;
+}
+
+.imagem-dispositivo {
+    align-items: center;
+    text-align: center;
 }
 
 .titulo-dispositivos {
@@ -280,4 +286,119 @@ h1 {
     font-size: 14px;
     width: 63%;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        background-image: none;
+    }
+    
+    .container-alura-plus {
+        width: 100%;
+        margin: 15% 0% 0% 0%;
+    }
+
+    .botoes-alura {
+        text-align: center;
+    }
+
+    .container-plataformas {
+        display: block;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .texto-plataformas {
+        width: 100%;
+    }
+
+    .imagem-monitor {
+        margin: 0% 0%;
+    }
+
+    .container-combo-mais {
+        text-align: center;
+        flex-direction: column-reverse;
+        margin-top: 20%;
+    }
+
+    .container-textos-telas {
+        width: 80%;
+        margin-left: 0%;
+        text-align: center;
+    } 
+
+    .botao-combo-mais {
+        text-align: center;
+        justify-content: center;
+        width: 50%;
+        margin: 0%;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+
+    .texto-combo-mais {
+        margin-left: 0%;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .imagem-telas {
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .container-cursos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .imagem-cursos {
+        margin: 15% 0% 5% 0%;
+        width: 100%;
+    }
+    .container-textos-cursos {
+        width: 90%;
+        margin-left: 0%;
+    }
+
+    .titulo-cursos {
+        margin-bottom: 4%;
+    }
+
+    .titulo-dispositivos {
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .container-imagem-dispositivos {
+        display: block;
+    }
+
+    .rodape-alura {
+        text-align: center;
+    }
+
+    .logo-alura {
+        margin-right: 0%;
+        margin-bottom: 5%;
+        margin-top: 10%;
+    }
+
+    .links-alura {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto-alura {
+        margin-bottom: 2%;
+    }
+
+    .texto-alura-2 {
+        width: 100%;
+    }
 }
